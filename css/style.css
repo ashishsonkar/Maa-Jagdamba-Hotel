@@ -1,0 +1,44 @@
+.bg-image{
+	background:url(../image/jh.jpg) no-repeat;
+	height:60px;
+	width:100%;
+	background-size:cover;
+	background-position:0px -100px;
+	background-blend-mode:multiply;
+	background-color:grey;
+}
+.bg-image2{
+	background:url(../image/jh.jpg) no-repeat center;
+	height:500px;
+	background-size:cover;
+	background-position-y:-220px;
+	max-width:auto;
+}
+.bg-image3{
+	background:url(../image/jh11.jpg) no-repeat;
+	height:195px;
+	background-size:cover;
+}
+.bg-image4{
+	background:url(../image/jh12.jpg) no-repeat;
+	height:195px;
+	background-size:cover;
+}
+.bg-image5{
+	background:url(../image/jh13.jpg) no-repeat;
+	height:195px;
+	background-size:cover;
+}
+@media(max-width:1200px){
+	.bg-image2{
+		height:auto !important;
+		background-size:cover !important;
+	}
+}
+@media(max-width:768px){
+	.bg-image2{
+		height:500px !important;
+		background-position: -320px -30px !important
+	}
+	
+}
